@@ -1,0 +1,8 @@
+coverage_service: cobertura_xml
+xcodeproj: ios-base.xcodeproj
+scheme: ios-base-develop
+binary_basename: ios-base-Debug
+ignore:
+  - Pods/*
+  - ios-base/Extensions/UIImageExtension.swift
+  - ios-base/AppDelegate.swift
